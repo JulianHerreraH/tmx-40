@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TMX-40</title>
+    <link rel="icon" href="IMG/logo.ico">
+
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+
+    <script src="JS/jquery.js"></script>
+    <script src="JS/popper.min.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div id="myNav" class="overlay">
+        <div class="container-fluid">
+            <div class="row d-none d-md-flex">
+                <div class="col-9 p-3">
+                    <h1>H&Z Trading Group</h1>
+                    <p class="lead font-italic">Expertos en Bioseguridad</p>
+                    <p class="lead font-weight-bold mt-3">Biodesinfectante TMX-40</p>
+                </div>
+                <div class="col-3 p-3 mb-2">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                </div>
+            </div>
+            <div class="row d-flex d-md-none mt-3">
+                <div class="col-9">
+                    <h6>H&Z Trading Group</h6>
+                    <p class="small font-italic">Expertos en Bioseguridad</p>
+                    <p class="small font-weight-bold mt-3">Biodesinfectante TMX-40</p>
+                </div>
+                <div class="col-3">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                </div>
+            </div>
+        </div>
+        <div class="overlay-content p-4">
+            <a>Industria</a>
+            <ul class="p-2">
+                <li><a href="HTML/acuicola.html">Acuicola</a></li>
+                <li><a href="HTML/acuicola.html">Agricultura </a></li>
+                <li><a href="HTML/acuicola.html">Hogar</a></li>
+                <li><a href="HTML/acuicola.html">Hospitales</a></li>
+            </ul>
+            <a href="#" class="my-3 overlay-anchor">Acerca de Nosotros</a>
+            <a href="#" class="my-3 overlay-anchor">Contacto</a>
+        </div>
+    </div>
+
+    <!-- Nav Bar Begins -->
+    <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+        <a class="navbar-brand" href="index.html">
+            <img class="logo-navbar pt-4" src="IMG/logo.png" alt="Logo HZ Trading Group">
+        </a>
+
+        <div class="navbar-nav mr-auto">
+            <img class="tmx pt-4" src="IMG/tmx.png" alt="Logo HZ Trading Group">
+        </div>
+
+        <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link active font-weight-bold d-none d-md-block" id="menu"
+                onclick="openNav()">Menú</a>
+            <img class="nav-item menu-image" id="menu-btn" src="IMG/menu.png" onclick="openNav()">
+        </div>
+
+    </nav>
+    <!-- Nav Bar Ends -->
+
+
+    <!-- Carousel Begins -->
+    <section class="mt-md-5 mb-3">
+        <div>
+            <div id="myCarousel" class="carousel slide carousel-fade w-75 mx-auto" data-ride="carousel"
+                data-interval="7000">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="IMG/granja.jpg" class="d-block w-100 img-carousel"
+                            alt="Imagen aerea de granjas de camarón">
+                        <div class="carousel-caption d-md-block">
+                            <h1>Acuicola</h1>
+                            <a href="HTML/acuicola.html" class="font-weight-bold lead"> Más
+                                información</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="IMG/agropecuari.jpg" class="d-block w-100 img-carousel" alt="...">
+                        <div class="carousel-caption d-md-block">
+                            <h1>Agricultura</h1>
+                            <a href="contacto.html" style="color: white;"> Ver más </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="IMG/hospital.jpg" class="d-block w-100 img-carousel" alt="...">
+                        <div class="carousel-caption d-md-block">
+                            <h1>Hospitales</h1>
+                            <a href="acerca.html" style="color: white;">Conoce más acerca de la empresa</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="IMG/hogar.jpg" class="d-block w-100 img-carousel" alt="...">
+                        <div class="carousel-caption d-md-block">
+                            <h1>Hogar</h1>
+                            <a href="acerca.html" style="color: white;">Conoce más acerca de la empresa</a>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev " href="#myCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Siguiente</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Carousel Ends -->
+
+    <section class="my-3">
+        <div class="container p-3">
+            <div class="row">
+                <div class=" col-12 col-md-5">
+                    <img src="IMG/kit.jpg" class="img-fluid rounded">
+                </div>
+                <div class="col-12 col-md-7">
+                    <h3 class="d-block d-md-none">Biodesinfectante TMX-40</h3>
+                    <p class="display-4 d-none d-md-block">Biodesinfectante TMX-40</p>
+                    <p class="lead font-italic">Aprovado por EPA-FDA-USA</p>
+                    <p class="h4">Conoce los beneficio del desinfectante <b>TMX-40</b> </p>
+                    <ul class="px-3 p-md-4 bulleted-list ">
+                        <li>Economico</li>
+                        <li>Efectivo</li>
+                        <li>Biodegradable</li>
+                        <li>Preventivo y Curativo</li>
+                        <li>Manejo facil</li>
+                    </ul>
+                    <a class="lead" href="#">Ver más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-3">
+        <div class="container">
+            <h1>Productos para todas las industrias</h1>
+            <div id="carouselExampleControls" class="carousel slide my-3" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-3">
+                                <img class="d-block w-100 rounded product-carousel" src="IMG/acuicola-10L.jpg">
+                            </div>
+                            <div class="col-3">
+                                <img class="d-block w-100 rounded product-carousel" src="IMG/acuicola-10L.jpg">
+                            </div>
+                            <div class="col-3">
+                                <img class="d-block w-100 rounded product-carousel" src="IMG/acuicola-10L.jpg">
+                            </div>
+                            <div class="col-3">
+                                <img class="d-block w-100 rounded product-carousel" src="IMG/acuicola-10L.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-3">
+                                <img class="d-block w-100 rounded product-carousel" src="IMG/kit.jpg">
+                            </div>
+                            <div class="col-3">
+                                <img class="d-block w-100 rounded product-carousel" src="IMG/kit.jpg">
+                            </div>
+                            <div class="col-3">
+                                <img class="d-block w-100 rounded product-carousel" src="IMG/kit.jpg">
+                            </div>
+                            <div class="col-3">
+                                <img class="d-block w-100 rounded product-carousel" src="IMG/kit.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-3">
+                                <img class="d-block w-100 rounded product-carousel" src="IMG/kit.jpg">
+                            </div>
+                            <div class="col-3">
+                                <img class="d-block w-100 rounded product-carousel" src="IMG/kit-atomizador.jpg">
+                            </div>
+                            <div class="col-3">
+                                <img class="d-block w-100 rounded product-carousel" src="IMG/atomizador.jpg">
+                            </div>
+                            <div class="col-3">
+                                <img class="d-block w-100 rounded product-carousel" src="IMG/acuicola-10L.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Footer Begins -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row mt-3">
+                <div class="col-sm-4">
+                    <img class="logoFooter mt-2" src="IMG/logo2.png" alt="Logo">
+                </div>
+                <div class="col-sm-4">
+                    <a class="h4">
+                        Industrias
+                    </a>
+                    <ul class="mb-3">
+                        <li class="pt-2">
+                            <a href="HTML/acuicola.html">Acuicola</a>
+                        </li>
+                        <li class="pt-2">
+                            <a>Agricultura</a>
+                        </li>
+                        <li class="pt-2">
+                            <a>Hogar</a>
+                        </li>
+                        <li class="pt-2">
+                            <a>Hospitales</a>
+                        </li>
+                    </ul>
+                    <a class="h4">
+                        Promociones
+                    </a>
+                    <ul class="mb-3">
+                        <li class="pt-2">
+                            <a>Kit Nebulizador</a>
+                        </li>
+                        <li class="pt-2">
+                            <a>Atomizador</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="col-sm-4">
+                    <h5>HZ Trading Group</h5>
+                    <ul>
+                        <li class="pt-2"><a href="./acerca.html">Acerca de Nosotros</a></li>
+                        <li class="pt-2"><a href="./contacto.html">Contacto</a></li>
+                    </ul>
+                    <ul class="my-3">
+                        <li><a href="#" target="_blank" class="facebook"><i class="fab fa-facebook"></i> @HZ Trading
+                                Group</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p class="text-center">© 2020 HZ Trading Group</p>
+        </div>
+    </footer>
+    <!-- Footer Ends -->
+
+    <script>
+        $("#menu-btn").click(function () {
+            $('#menu').toggle("slow");
+
+        });
+
+        function openNav() {
+            $(".overlay").css("border-left", "solid #1a0f66");
+            if ($('#menu').css('display') == 'none') {
+                $("#myNav").css("width", "60%");
+            } else {
+                $("#myNav").css("width", "30%");
+            }
+
+        }
+
+        function closeNav() {
+            $(".overlay").css("border-left", "none");
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+
+</body>
+
+</html>

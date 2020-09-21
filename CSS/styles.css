@@ -1,0 +1,176 @@
+/* CSS RESET */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, img {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100;
+}
+
+.logo-navbar{
+    max-width: 80px;
+}
+.tmx{
+	max-width: 250px;
+}
+
+.product-carousel{
+	max-width: 200px;
+}
+
+.menu-image{
+	max-width: 30px;
+	color: #1a0f66;
+	cursor: pointer;
+}
+
+#navbar a{
+    text-decoration: none;
+	font-size: 20px;
+	color: #1a0f66;
+	cursor: pointer;
+}
+
+.main-color{
+	color:#1a0f66;
+}
+.main-color-bg {
+	background-color:#1a0f66;
+	color:white;
+}
+.no-border {
+	border:none!important;
+}
+
+
+/* Footer */
+#footer {
+    position:absolute;
+	width:100%;	
+	color: white;
+	background-color:	#1a0f66;	
+}
+#footer a{
+    color: white;
+}
+.logoFooter{
+    max-width: 150px!important;
+}
+
+.overlay {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	right: 0;
+	color: #1a0f66;
+	background-color: white;
+	overflow-x: hidden;
+	transition: 0.5s;
+}
+
+.overlay-content {
+	position: relative;
+	width: 100%;
+	text-align: left;
+	margin-top: 30px;
+}
+
+.overlay div a {
+	text-decoration: none;
+	font-size: 30px;
+	color: #1a0f66;
+  	display: block;
+}
+.overlay-content ul li a {
+	font-size: 18px;
+	padding: 6px;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: rgb(71, 133, 172);
+}
+
+.overlay .closebtn {
+color:#1a0f66!important;
+  font-size: 60px;
+}
+
+.bulleted-list {
+	font-size: 20px;
+	line-height: 25px;
+	list-style-type: disc !important;
+}
+
+
+@media screen and (max-width: 576px) {	
+  	.overlay a {font-size: 20px}
+	  
+	  .overlay .closebtn {
+  		font-size: 40px;
+  	}
+
+  	.logo-navbar{
+    	max-width: 60px;
+	}
+
+  	.tmx{
+		max-width: 120px;
+	}
+
+	#myCarousel{
+		width: 100%!important;
+	}
+	.logoFooter{
+		max-width: 120px!important;
+		margin: 0 auto;
+	}
+	#menu {
+		display: none;
+	}
+
+}
